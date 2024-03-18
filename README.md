@@ -4,7 +4,7 @@ This Python script scrapes cashback and annual fee information for credit cards 
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.11
 - Libraries: pandas, requests, BeautifulSoup
 
 ## Installation
@@ -23,7 +23,7 @@ This Python script scrapes cashback and annual fee information for credit cards 
 
 1. Run the script:
    ```sh
-   python main.py
+   python3 main.py
    ```
 
 2. The script will fetch the data and export it to an Excel file named `credit_card_data.xlsx`.
@@ -31,4 +31,3 @@ This Python script scrapes cashback and annual fee information for credit cards 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
